@@ -72,7 +72,5 @@ int main(void)
         }
     }
 
-    printf("counter = %d\n", counter);
-
     return result;
 }
