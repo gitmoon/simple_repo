@@ -1,0 +1,19 @@
+Before you start, please find the following tutorial https://git-scm.com/book/ru/v2 that will help you to understand Git.
+
+A list of tasks can be found below. The diagram illustrated on graph.jpg can get you the idea of what needs to achieve.
+
+For the "develop" branch:
+1) Create a new branch (name it "develop") that is based on b7107f0ea38b5853ed42826fa8d2fa5524bd08a3 commit of the "master" branch.
+2) Look at the code and try fix issues you found. Organize a pull request to the "develop" branch.
+
+For the "feature" branch:
+3) Create a new branch (name it "feature") that is based on e24fd1c6f586320c044a6c5a105cd10122bf4f5b commit of the "master" branch.
+4) Implement the Makefile to build and clean the project. Organize a pull request to the "feature" branch.
+5) Add a line to the Makefile that prints the rule's name. Organize a pull request to the "feature" branch.
+6) Add a line to the Makefile that prints the C source file's name. Organize a pull request to the "feature" branch.
+7) Remove a commit from the step 5) and organize a pull request to the "feature" branch.
+
+For the "release" branch:
+8) Create a new branch (name it "release") that is based on the latest changes of "develop" branch.
+9) Merge the "release" branch with the 1f71080a1f838432042410a95531092ee6c61d9a commit of the "master" branch.
+10) Merge the "release" branch with the "feature" branch and organize a pull request to the "release" branch. Mark it with "PR1" tag.
