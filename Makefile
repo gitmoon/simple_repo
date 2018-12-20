@@ -1,7 +1,7 @@
 #Please construct a makefile with build and clean functionality.
 
 PROJECT = my_test
-
+$(info list = $(shell find $(SRC_PATH) -name '*.c'))
 SRC_PATH = .
 
 CC=gcc
