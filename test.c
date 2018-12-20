@@ -81,7 +81,8 @@ int main(void)
         }
     }
 
+
     pthread_mutex_destroy(&lock);
-    printf("\ncounter = %d\n", counter);
+    
     return result;
 }
